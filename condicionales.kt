@@ -24,6 +24,8 @@ fun main() {
     //se crea un tercera opcion que puede ser cumplida
     if (num > 4) {
         println("The variable is greater than 4")
+    /*extiende una sentencia if para ejecutar una sentencia diferente 
+     * en caso que la expresión if original se evalúe como false*/
     } else if (num == 4) {
         println("The variable is equal to 4")
     } else {
